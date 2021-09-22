@@ -1,7 +1,6 @@
 import React from "react";
 
 import Browser from "./Browser";
-import Netflix from "./Netflix";
 import Spotify from "./Spotify";
 import TodoList from "./TodoList";
 import VSCode from "./VSCode";
@@ -61,12 +60,6 @@ const ApplicationIconDispatch: React.FC<ApplicationDispatchProps & { iconClassNa
       return (
         <span className="text-green-400">
           <FaSpotify className={iconClassNames} />
-        </span>
-      );
-    case "netflix":
-      return (
-        <span className="text-red-700">
-          <RiNetflixFill className={iconClassNames} />
         </span>
       );
     case "vscode":
