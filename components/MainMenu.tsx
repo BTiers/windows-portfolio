@@ -57,15 +57,6 @@ const MainMenu: React.FC<MainMenuProps> = ({}) => {
             </Popover.Button>
             <Popover.Button
               className="flex flex-col items-center p-2 space-y-2 rounded hover:bg-gray-100 hover:backdrop-blur-lg hover:bg-opacity-20"
-              onMouseUp={() => addWindow("Netflix", "netflix")}
-            >
-              <span className="flex items-center justify-center text-lg font-black uppercase rounded-sm text-gray-50">
-                <ApplicationIconDispatch application="netflix" iconClassNames="w-8 h-8" />
-              </span>
-              <span className="text-xs font-semibold text-gray-50">Netflix</span>
-            </Popover.Button>
-            <Popover.Button
-              className="flex flex-col items-center p-2 space-y-2 rounded hover:bg-gray-100 hover:backdrop-blur-lg hover:bg-opacity-20"
               onMouseUp={() => addWindow("Todos", "todolist")}
             >
               <span className="flex items-center justify-center text-lg font-black uppercase rounded-sm text-gray-50">
@@ -112,15 +103,6 @@ const MainMenu: React.FC<MainMenuProps> = ({}) => {
             </Popover.Button>
             <Popover.Button
               className="flex flex-col items-center p-2 space-y-2 rounded hover:bg-gray-100 hover:backdrop-blur-lg hover:bg-opacity-20"
-              onMouseUp={() => addWindow("Netflix", "netflix")}
-            >
-              <span className="flex items-center justify-center text-lg font-black uppercase rounded-sm text-gray-50">
-                <ApplicationIconDispatch application="netflix" iconClassNames="w-8 h-8" />
-              </span>
-              <span className="text-xs font-semibold text-gray-50">Netflix</span>
-            </Popover.Button>
-            <Popover.Button
-              className="flex flex-col items-center p-2 space-y-2 rounded hover:bg-gray-100 hover:backdrop-blur-lg hover:bg-opacity-20"
               onMouseUp={() => addWindow("Todos", "todolist")}
             >
               <span className="flex items-center justify-center text-lg font-black uppercase rounded-sm text-gray-50">
@@ -146,15 +128,6 @@ const MainMenu: React.FC<MainMenuProps> = ({}) => {
                 <ApplicationIconDispatch application="spotify" iconClassNames="w-8 h-8" />
               </span>
               <span className="text-xs font-semibold text-gray-50">Spotify</span>
-            </Popover.Button>
-            <Popover.Button
-              className="flex flex-col items-center p-2 space-y-2 rounded hover:bg-gray-100 hover:backdrop-blur-lg hover:bg-opacity-20"
-              onMouseUp={() => addWindow("Netflix", "netflix")}
-            >
-              <span className="flex items-center justify-center text-lg font-black uppercase rounded-sm text-gray-50">
-                <ApplicationIconDispatch application="netflix" iconClassNames="w-8 h-8" />
-              </span>
-              <span className="text-xs font-semibold text-gray-50">Netflix</span>
             </Popover.Button>
             <Popover.Button
               className="flex flex-col items-center p-2 space-y-2 rounded hover:bg-gray-100 hover:backdrop-blur-lg hover:bg-opacity-20"

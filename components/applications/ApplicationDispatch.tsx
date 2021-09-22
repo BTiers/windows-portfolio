@@ -18,7 +18,6 @@ export type AvailableApplication =
   | "browser"
   | "todolist"
   | "spotify"
-  | "netflix"
   | "vscode"
   | "contact";
 
@@ -34,8 +33,6 @@ const ApplicationDispatch: React.FC<ApplicationDispatchProps> = ({ application }
       return <TodoList />;
     case "spotify":
       return <Spotify />;
-    case "netflix":
-      return <Netflix />;
     case "vscode":
       return <VSCode />;
     case "contact":
