@@ -2,6 +2,7 @@
 
 This project is heavily inspired by [the awesome work of vivek9patel](https://github.com/vivek9patel/vivek9patel.github.io) and contributors of this project
 
+This project is still heavily in development and bugs & missing core features are to be expected
 ## Development
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
