@@ -292,7 +292,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
         </div>
         <div
           className={`py-2 mx-3 mt-12 flex-grow text-xs font-medium relative text-gray-900 ${
-            stack[6] === true || stack[2] === true ? "" : "prose prose-purple"
+            stack[7] === true || stack[2] === true ? "" : "prose prose-purple"
           }`}
         >
           {stack[2] === true && (
@@ -303,7 +303,7 @@ const Contact: React.FC<ContactProps> = ({}) => {
           )}
           <Typical
             className={`after:!content-none whitespace-pre-wrap ${
-              stack[6] === true
+              stack[7] === true
                 ? "bg-purple-600 rounded-md transform animate-bounce transition-all delay-500 text-white font-extrabold text-xl mt-14 px-4 py-4"
                 : ""
             }`}
