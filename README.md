@@ -1,6 +1,6 @@
 ## Disclaimer
 
-This project is heavily inspired by [the awesome work of vivek9patel](https://github.com/vivek9patel/vivek9patel.github.io) and contributors to this project
+This project is heavily inspired by [the awesome work of vivek9patel](https://github.com/vivek9patel/vivek9patel.github.io) and contributors of this project
 
 ## Development
 
