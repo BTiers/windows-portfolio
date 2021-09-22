@@ -160,7 +160,7 @@ const Browser: React.FC<BrowserProps> = ({}) => {
                 <AiFillCloud />
               </div>
               <div className="flex-shrink truncate">
-                {!url ? "New tab" : ref ? ref.contentWindow?.document.title : "Loading..."}
+                {!url ? "New tab" : url}
               </div>
             </button>
             <button
@@ -213,7 +213,8 @@ const Browser: React.FC<BrowserProps> = ({}) => {
                   return tabsCpy;
                 });
             }}
-            src={url}
+            referrerPolicy="no-referrer-when-downgrade"
+            src={`https://www.google.com/search?q=${url}&igu=1`}
             style={{ zIndex: active ? 1 : 0, top: "5rem", height: "calc(100% - 5rem)" }}
             className="absolute left-0 w-full rounded-b-md"
           />
